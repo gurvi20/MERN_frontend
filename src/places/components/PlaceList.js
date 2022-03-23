@@ -22,6 +22,7 @@ return <ul className="place-list">
     address={place.address}
     creatorId={place.creator}
     cooridinates={place.location}
+    onDelete={props.onDeletePlace}
     />)}
 </ul>
 };
